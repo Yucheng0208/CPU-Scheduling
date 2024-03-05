@@ -1,6 +1,3 @@
-Here is the code with the Chinese comments and prompts translated into English:
-
-```python
 from collections import deque
 import matplotlib.pyplot as plt
 
@@ -137,4 +134,3 @@ def show_menu(processes):
 
 # Execute the main program
 main()
-```
