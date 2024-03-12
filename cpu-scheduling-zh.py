@@ -125,7 +125,7 @@ def show_menu(processes):
         gantt_chart = sjf(processes)
         draw_gantt_chart(gantt_chart)
     elif choice == 3:
-        time_quantum = int(input("請輸入時間片大小: "))
+        time_quantum = int(input("請輸入時間切片大小: "))
         gantt_chart = rr(processes, time_quantum)
         draw_gantt_chart(gantt_chart)
     elif choice == 0:
